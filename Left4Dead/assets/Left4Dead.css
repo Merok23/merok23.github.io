@@ -82,3 +82,19 @@
     flex-grow: 1;
     text-align: center;
   }
+
+  /* BIG TITLE */
+  /* Center the title and increase font size */
+.big-centered-title {
+  text-align: center;
+  font-size: 64px; /* Adjust the font size as needed */
+  color: #000;
+}
+
+/* Background image with gradient */
+.background-section {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 1)), url("/Left4Dead/assets/background_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
