@@ -1,5 +1,7 @@
-# Left 4 Dead
-
+---
+layout: Left4Dead
+---
+![Left 4 Dead banner](/assets/banner.png)
 ### More
 Left 4 Dead is a group project done in the first semester of 2023 at FIUBA (Facultad de Ingenieria de la Universidad de Buenos Aires). It is a 2D game based on the original Left 4 Dead game. The game is developed in C++ using libraries like SDL2pp, qt5, Catch2, among others. It has a client-server architecture, where the server is in charge of managing the game and the clients are in charge of displaying the game and sending the player's actions to the server.
 

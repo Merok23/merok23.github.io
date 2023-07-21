@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Página de proyectos - Merok23
-description: Página de proyectos de Merok23
+layout: Left4Dead
+social:
+  github: Merok23
