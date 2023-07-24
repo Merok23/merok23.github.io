@@ -8,8 +8,15 @@
   min-height: 100vh; /* Set the minimum height to full viewport height */
 }
 
-  /* BIG TITLE */
-  /* Center the title and increase font size */
+/* Container for picture and paragraph to be aligned */
+.paragraph-picture-play {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* BIG TITLE */
+/* Center the title and increase font size */
 .big-centered-title {
     text-align: center;
     font-size: 64px;
