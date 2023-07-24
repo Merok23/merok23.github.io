@@ -1,3 +1,0 @@
----
-layout: Left4DeadWiki
----
