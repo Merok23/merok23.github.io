@@ -1,17 +1,18 @@
+/*
 @font-face {
   font-family: 'Zeyada';
   src: url('/Left4Dead/assets/Zeyada-Regular.ttf') format('woff');
 }
 
-  /* BIG TITLE */
-  /* Center the title and increase font size */
+   BIG TITLE 
+   Center the title and increase font size 
   .big-centered-title {
     text-align: center;
     font-size: 64px;
-    font-family: 'Zeyada', sans-serif; /* Use the Zeyada font for the title */
+    font-family: 'Zeyada', sans-serif;  Use the Zeyada font for the title 
     color: #000;
   }
-
+*/
 /* Navigation buttons */
 .buttons-row {
     display: flex;
@@ -142,4 +143,29 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+/* Back to the top arrow */
+#scrollToTopButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+
+#scrollToTopButton.show {
+  opacity: 1;
 }
