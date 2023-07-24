@@ -120,6 +120,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
+  height: 120vh; /* Make the image cover the entire screen */
 }
 
 .background-media {
