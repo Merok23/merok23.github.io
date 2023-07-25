@@ -38,6 +38,8 @@
     </style>
     <!-- Syle sheets -->
     <link rel="stylesheet" href="/Left4Dead/assets/Left4Dead.css">
+    <!-- Play Script -->
+    <script src="/Left4Dead/play.js"></script>
     <!-- Back to the top script -->
     <script src="/Left4Dead/backToTheTop.js"></script>
     <!-- Favicon (browser icon on tab) -->
@@ -69,13 +71,13 @@
         <p>Disk Space: 300 MB</p>
         <p>CPU: </p>
         <p>Display: Resolution of 1600 x 900 or higher</p>
-          <div class = "download-button-container">
-              <a href="https://github.com/Merok23/TPG-Taller-Left4dead-Grupo1/blob/main/installer.sh" class="download-button" target="_blank">
-                  <img src="/Left4Dead/assets/soldier_idle.png" alt="Left Image" class="left-image">
-                  <span>Download</span>
-                  <img src="/Left4Dead/assets/zombie_idle.png" alt="Right Image" class="right-image">
-              </a>
-          </div>
+        <div class="download-button-container">
+          <a href="https://github.com/Merok23/TPG-Taller-Left4dead-Grupo1/blob/main/installer.sh" class="download-button" target="_blank" onclick="loadFinalImage()">
+            <img src="/Left4Dead/assets/soldier_idle.png" alt="Left Image" class="left-image">
+            <span>Download</span>
+            <img src="/Left4Dead/assets/zombie_idle.png" alt="Right Image" class="right-image">
+          </a>
+        </div>
       <h1>Instructions: </h1>
       <p>To start playing the game, follow these steps:</p>
       <ol>
@@ -89,7 +91,7 @@
       <div class="paragraph-picture-play">
         <p>For more detailed instructions on how to play the game, whether locally or online, please refer to the <a href = "https://drive.google.com/file/d/1AMQgdF2MJgMVHbxAMOuL9VuB2LFuOa6q/view?usp=sharing">user manual</a>.</p>
         <a href = "https://drive.google.com/file/d/1AMQgdF2MJgMVHbxAMOuL9VuB2LFuOa6q/view?usp=sharing">
-          <img src="/Left4Dead/assets/manual.png" alt="User Manual" style="width: 30%;height: 30%;pointer-events: none;margin: 0;" />
+          <img src="/Left4Dead/assets/manual.png" alt="User Manual" style="width: 40%;height: 40%;pointer-events: none;margin: 0;" />
         </a>
       </div>
       </main>

@@ -104,6 +104,16 @@
     content: url('/Left4Dead/assets/zombie_dead.png');
   }
 
+  .download-button.final-image-loaded img.left-image {
+    /* Specify the URL of the final left image */
+    content: url('/Left4Dead/assets/soldier_finish.png');
+  }
+  
+  .download-button.final-image-loaded img.right-image {
+    /* Specify the URL of the final right image */
+    content: url('/Left4Dead/assets/zombie_finish.png');
+  }
+
   .download-button span {
     flex-grow: 1;
     text-align: center;
