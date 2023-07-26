@@ -43,11 +43,29 @@
     font-weight: bold;
     font-size: 16px;
   }
-  
-  /* Hover effect for the buttons */
-  .nav-button:hover {
-    background-color: #45a049;
+
+   /* Style for PLAY button */
+   .nav-button-play {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #ff0000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
   }
+  
+/* Hover effect for the PLAY button */
+.nav-button-play:hover {
+    background-color: #f00000;
+}
+/* Hover effect for the buttons */
+
+.nav-button:hover {
+    background-color: #45a049;
+}
 
 /* Donwload button */
 
