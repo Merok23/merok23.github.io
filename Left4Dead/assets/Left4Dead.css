@@ -8,6 +8,29 @@
   min-height: 100vh; /* Set the minimum height to full viewport height */
 }
 
+/* Page icon + banner */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  padding-top: 1%;
+  border-bottom: 2px solid #000; /* Add border style and width */
+}
+
+.banner-title {
+  font-size: 60px; /* Adjust the font size as needed */
+  font-family: 'Zeyada', cursive; /* Apply the custom font */
+  padding-top: 5%;
+  margin: 0 20px; /* Add spacing between title and icons */
+}
+
+.icon {
+  width: 60px; /* Adjust the icon size as needed */
+  height: 60px;
+  margin: 0 10px; /* Add spacing between icons and text */
+}
+
 /* Container for picture and paragraph to be aligned */
 .paragraph-picture-play {
   display: flex;
@@ -155,7 +178,7 @@
 
 /* Background image with gradient */
 .background-home {
-  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.2)), url("/Left4Dead/assets/background_image4.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)), url("/Left4Dead/assets/background_image4.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
