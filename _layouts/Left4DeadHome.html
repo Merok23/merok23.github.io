@@ -29,12 +29,6 @@
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
     <!--Stylesheet: -->
     <link rel="stylesheet" href="/Left4Dead/assets/Left4Dead.css">
-    <style>
-      h1{
-        color: black;
-        font-weight: bolder;
-      }
-    </style>
     <!-- Favicon (browser icon on tab) -->
     <link rel="icon" type="image/x-icon" href="/Left4Dead/assets/favicon.svg">
   </head>
@@ -42,7 +36,8 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
     <!-- Background image -->
     <div class = "background-home">
-      <div class="banner">
+      <!-- Banner with title and icons-->
+      <div class="banner" style="background: radial-gradient(ellipse, rgb(255, 255, 255), transparent), url(/Left4Dead/assets/banner.png);">
         <img src="/Left4Dead/assets/skull.png" alt="Left Icon" class="icon">
         <a href="/Left4Dead/home" style="text-decoration: none; color: inherit;">
           <h1 class="banner-title">LEFT 4 DEAD</h1>
@@ -57,9 +52,11 @@
       </div>
       <!-- Main page -->
       <main id="content" class="main-content" role="main">
-        <h1 id="Trailer">Game Trailer</h1>
-        <!-- Trailer -->
-        <div class="video-container">
+        <div class="video-container" style="margin-top: 40px;">
+          <div class="big-left-title">
+            <p>Game Trailer</p>
+          </div>
+          <!-- Trailer -->
           <iframe width="560" height="315" src="https://www.youtube.com/embed/QzMvd7VeC7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </main>
